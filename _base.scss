@@ -1,0 +1,8 @@
+@mixin container($width:980px){
+  width:$width;
+  margin:0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+@mixin font-weight-correction{ font-smooth:always; -webkit-font-smoothing: antialiased; }
